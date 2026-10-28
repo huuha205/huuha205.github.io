@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trần Hữu Hà | Java Backend Developer</title>
-  <!-- Tailwind CSS -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,14 +17,14 @@
 </head>
 <body class="bg-[#0b0f19] text-slate-200 antialiased selection:bg-blue-600 selection:text-white">
 
-  <!-- Glow Background Background -->
+  <!-- Glow Effect Background -->
   <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10">
-    <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[650px] h-[350px] bg-gradient-to-tr from-blue-600/20 via-indigo-500/15 to-purple-600/10 blur-[130px] rounded-full"></div>
+    <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[700px] h-[380px] bg-gradient-to-tr from-blue-600/20 via-indigo-500/15 to-purple-600/10 blur-[130px] rounded-full"></div>
   </div>
 
-  <div class="max-w-4xl mx-auto px-6 py-12 md:py-20 space-y-16">
+  <div class="max-w-4xl mx-auto px-5 py-12 md:py-20 space-y-16">
 
-    <!-- HERO SECTION -->
+    <!-- HERO HEADER -->
     <header class="space-y-6">
       <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold tracking-wide shadow-sm">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -41,10 +41,10 @@
       </div>
 
       <p class="text-slate-300 leading-relaxed text-base max-w-2xl">
-        Sinh viên chuyên ngành Kỹ thuật phần mềm tại Đại học FPT Đà Nẵng. Tập trung xây dựng các hệ thống Backend bền vững với <strong class="text-white">Java & OOP</strong>, tối ưu hóa cơ sở dữ liệu quan hệ và xây dựng sản phẩm công nghệ thực tế.
+        Sinh viên chuyên ngành Kỹ thuật phần mềm tại Đại học FPT Đà Nẵng. Đam mê xây dựng hệ sinh thái Backend với <strong class="text-white">Java & OOP</strong>, tối ưu hóa cơ sở dữ liệu quan hệ, tích hợp hệ thống IoT và AI thời gian thực.
       </p>
 
-      <!-- Contact Badges -->
+      <!-- Liên kết mạng xã hội / cá nhân -->
       <div class="flex flex-wrap items-center gap-3 pt-2">
         <a href="https://github.com/huuha205" target="_blank" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 hover:border-blue-500 hover:bg-slate-800 text-white text-sm font-medium transition duration-200">
           <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -64,40 +64,195 @@
     <section class="space-y-6">
       <div class="flex items-center justify-between">
         <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-          <span class="text-blue-500">🚀</span> Dự án tiêu biểu
+          <span class="text-blue-500">🚀</span> Dự án tiêu biểu & Trải nghiệm thực tế
         </h2>
-        <span class="text-xs text-slate-400 font-mono">2 Dự án hoàn thiện</span>
+        <span class="text-xs text-emerald-400 font-mono bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-1 rounded-full">
+          ● 2 Sản phẩm Live
+        </span>
       </div>
 
-      <div class="space-y-8">
+      <div class="space-y-10">
 
-        <!-- DỰ ÁN 1: HATRIX -->
-        <div class="bg-gradient-to-b from-slate-900 to-slate-900/60 border border-slate-800 hover:border-blue-500/40 transition duration-300 rounded-3xl overflow-hidden shadow-xl">
-          <!-- Live Preview Visual Banner -->
-          <div class="bg-gradient-to-r from-purple-950/40 via-slate-900 to-blue-950/40 border-b border-slate-800 p-6 flex flex-col items-center justify-center">
-            <div class="w-full max-w-md bg-[#131622] rounded-2xl border border-slate-700/60 p-6 shadow-2xl text-center space-y-4">
-              <div class="flex items-center justify-center gap-2">
-                <span class="text-2xl font-extrabold tracking-wider bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">HATRIX</span>
-                <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 inline-block"></span>
+        <!-- DỰ ÁN 1: SMART WEATHER MONITORING SYSTEM (IoT + AI) -->
+        <div class="bg-gradient-to-b from-slate-900 via-slate-900/90 to-slate-900/50 border border-slate-800 hover:border-emerald-500/40 transition duration-300 rounded-3xl overflow-hidden shadow-2xl">
+          
+          <!-- Mockup UI Weather Dashboard -->
+          <div class="bg-[#0f1422] border-b border-slate-800/80 p-5 md:p-6 space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="text-lg font-bold text-white flex items-center gap-1.5">
+                  <span class="text-sky-400">☁️</span> Smart Weather
+                </span>
+                <span class="text-[11px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+                  ● System Online
+                </span>
               </div>
-              <p class="text-[11px] font-semibold text-slate-400 tracking-wider uppercase">NỀN TẢNG LUYỆN THI & HỌC TỪ VỰNG TIẾNG ANH / TIẾNG NHẬT</p>
-              <div class="py-2.5 px-4 bg-slate-800/80 rounded-xl text-xs font-semibold text-slate-300 border border-slate-700 flex items-center justify-center gap-2">
-                <span>🔐 Hỗ trợ đăng nhập đồng bộ bằng Google OAuth</span>
+              <span class="text-xs font-mono text-slate-400">Dữ liệu thời gian thực (Socket.IO)</span>
+            </div>
+
+            <!-- Mini Metrics Grid -->
+            <div class="grid grid-cols-3 sm:grid-cols-6 gap-2">
+              <div class="bg-slate-900/90 border border-slate-800 p-2.5 rounded-xl text-center">
+                <span class="text-[10px] text-slate-400 block">NHIỆT ĐỘ</span>
+                <span class="text-sm md:text-base font-bold text-rose-400 font-mono">24.5°C</span>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-2.5 rounded-xl text-center">
+                <span class="text-[10px] text-slate-400 block">ĐỘ ẨM</span>
+                <span class="text-sm md:text-base font-bold text-sky-400 font-mono">67.8%</span>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-2.5 rounded-xl text-center">
+                <span class="text-[10px] text-slate-400 block">ÁP SUẤT</span>
+                <span class="text-sm md:text-base font-bold text-amber-400 font-mono">1003 hPa</span>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-2.5 rounded-xl text-center">
+                <span class="text-[10px] text-slate-400 block">LƯỢNG MƯA</span>
+                <span class="text-sm md:text-base font-bold text-indigo-400 font-mono">0 mm</span>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-2.5 rounded-xl text-center">
+                <span class="text-[10px] text-slate-400 block">GIÓ</span>
+                <span class="text-sm md:text-base font-bold text-teal-400 font-mono">0 km/h</span>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-2.5 rounded-xl text-center">
+                <span class="text-[10px] text-slate-400 block">ÁNH SÁNG</span>
+                <span class="text-sm md:text-base font-bold text-orange-400 font-mono">1.6 lux</span>
+              </div>
+            </div>
+
+            <!-- Gemini AI Box Mockup -->
+            <div class="bg-slate-900/80 border border-blue-500/30 rounded-xl p-3 text-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+              <div class="flex items-center gap-2 text-slate-300">
+                <span class="p-1 rounded bg-blue-500/20 text-blue-400 font-bold">🤖 Gemini AI:</span>
+                <span>Thời tiết mát mẻ, lặng gió. Thích hợp cho các hoạt động thư giãn trong nhà.</span>
+              </div>
+              <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold shrink-0">Rủi ro: Low</span>
+            </div>
+          </div>
+
+          <!-- Project Details -->
+          <div class="p-6 md:p-8 space-y-5">
+            <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+              <div>
+                <div class="flex items-center gap-2">
+                  <span class="text-xs font-mono font-bold text-emerald-400 uppercase tracking-wider">IoT & Realtime Backend Platform</span>
+                  <span class="px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[11px] font-semibold">Trưởng nhóm</span>
+                </div>
+                <h3 class="text-xl font-bold text-white mt-1">Smart Weather Monitoring System</h3>
+                <p class="text-sm text-slate-300 mt-2 leading-relaxed">
+                  Hệ thống thu thập dữ liệu vi khí hậu từ trạm cảm biến IoT (ESP32), xử lý bằng REST API, lưu trữ SQLite, truyền phát thời gian thực qua WebSocket và tích hợp <strong class="text-blue-300">Google Gemini AI</strong> phân tích dự báo.
+                </p>
+              </div>
+
+              <!-- Nút liên kết Live Demo & GitHub -->
+              <div class="flex items-center gap-2 shrink-0">
+                <a href="https://weatherstation-btc1.onrender.com/" target="_blank" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-semibold inline-flex items-center gap-1.5 shadow-lg shadow-emerald-600/30 transition">
+                  <span>Demo trực tiếp</span> ↗
+                </a>
+                <a href="https://github.com/huuha205/WeatherStation" target="_blank" class="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-xs font-medium border border-slate-700 transition">
+                  Mã nguồn ↗
+                </a>
+              </div>
+            </div>
+
+            <!-- TÀI KHOẢN DÙNG THỬ (DEMO ACCOUNT) -->
+            <div class="p-3 bg-emerald-950/30 border border-emerald-500/30 rounded-xl flex flex-wrap items-center justify-between gap-2 text-xs">
+              <div class="flex items-center gap-2 text-emerald-300 font-medium">
+                <span>🔑</span>
+                <span>Tài khoản trải nghiệm Dashboard:</span>
+              </div>
+              <div class="flex items-center gap-3 font-mono text-xs">
+                <span>User: <strong class="text-white bg-slate-800 px-2 py-0.5 rounded border border-slate-700">admin</strong></span>
+                <span>Pass: <strong class="text-white bg-slate-800 px-2 py-0.5 rounded border border-slate-700">admin</strong></span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-800/80 text-xs">
+              <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg font-mono">ESP32 (C/C++)</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg font-mono">Node.js & Express</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-sky-300 rounded-lg font-mono">Socket.IO (Realtime)</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-amber-300 rounded-lg font-mono">SQLite</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-purple-300 rounded-lg font-mono">Google Gemini API</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg font-mono">Render Cloud</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- DỰ ÁN 2: HATRIX (HỌC TỪ VỰNG THÔNG MINH) -->
+        <div class="bg-gradient-to-b from-slate-900 via-slate-900/90 to-slate-900/50 border border-slate-800 hover:border-purple-500/40 transition duration-300 rounded-3xl overflow-hidden shadow-2xl">
+          
+          <!-- Mockup UI Hatrix Training Area -->
+          <div class="bg-[#101423] border-b border-slate-800/80 p-5 md:p-6 space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="text-xl font-black bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">HATRIX</span>
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <span class="text-xs text-slate-400 font-medium ml-2">Khu vực luyện tập phản xạ</span>
+              </div>
+              <span class="text-xs font-mono bg-purple-500/20 text-purple-300 px-2.5 py-0.5 rounded-full border border-purple-500/30">
+                Sẵn sàng: 389 từ
+              </span>
+            </div>
+
+            <!-- 6 Chế độ học tập -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-xs">
+              <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl flex items-center gap-2.5">
+                <span class="text-base">🎴</span>
+                <div>
+                  <div class="font-bold text-white">Flashcard</div>
+                  <div class="text-[10px] text-slate-400">Lật thẻ bộ nhớ</div>
+                </div>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl flex items-center gap-2.5">
+                <span class="text-base">☑️</span>
+                <div>
+                  <div class="font-bold text-white">Trắc nghiệm</div>
+                  <div class="text-[10px] text-slate-400">Kiểm tra nhanh</div>
+                </div>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl flex items-center gap-2.5">
+                <span class="text-base">🧩</span>
+                <div>
+                  <div class="font-bold text-white">Ghép thẻ</div>
+                  <div class="text-[10px] text-slate-400">Nối từ với nghĩa</div>
+                </div>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl flex items-center gap-2.5">
+                <span class="text-base">⌨️</span>
+                <div>
+                  <div class="font-bold text-white">Chính tả</div>
+                  <div class="text-[10px] text-slate-400">Gõ chuẩn từ vựng</div>
+                </div>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl flex items-center gap-2.5">
+                <span class="text-base">🎧</span>
+                <div>
+                  <div class="font-bold text-white">Nghe hiểu</div>
+                  <div class="text-[10px] text-slate-400">Luyện phát âm & nghe</div>
+                </div>
+              </div>
+              <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl flex items-center gap-2.5">
+                <span class="text-base">⚡</span>
+                <div>
+                  <div class="font-bold text-white">Tổng hợp</div>
+                  <div class="text-[10px] text-slate-400">Kiểm tra toàn diện</div>
+                </div>
               </div>
             </div>
           </div>
 
+          <!-- Project Details -->
           <div class="p-6 md:p-8 space-y-5">
             <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
               <div>
                 <span class="text-xs font-mono font-bold text-purple-400 uppercase tracking-wider">Web Application</span>
-                <h3 class="text-xl font-bold text-white mt-0.5">Hatrix – Ứng dụng học từ vựng tương tác thông minh</h3>
+                <h3 class="text-xl font-bold text-white mt-0.5">Hatrix – Nền tảng học từ vựng tiếng Anh & tiếng Nhật</h3>
                 <p class="text-sm text-slate-300 mt-2 leading-relaxed">
-                  Hệ thống hỗ trợ ôn tập từ vựng qua đa chế độ phản xạ: Flashcards, trắc nghiệm, nối từ, kiểm tra chính tả và luyện nghe với tính năng theo dõi tiến độ học tập.
+                  Ứng dụng hỗ trợ tối đa hóa khả năng ghi nhớ từ vựng thông qua nhiều chế độ tương tác, thuật toán lặp lại ngắt quãng (SRS), đồng bộ tiến độ tài khoản Google và lưu trữ lịch sử học tập.
                 </p>
               </div>
+
+              <!-- Nút liên kết Live Demo & GitHub -->
               <div class="flex items-center gap-2 shrink-0">
-                <a href="https://hatrix-sigma.vercel.app/" target="_blank" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-semibold inline-flex items-center gap-1.5 shadow-md shadow-blue-600/30 transition">
+                <a href="https://hatrix-sigma.vercel.app/" target="_blank" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-semibold inline-flex items-center gap-1.5 shadow-lg shadow-blue-600/30 transition">
                   <span>Trải nghiệm App</span> ↗
                 </a>
                 <a href="https://github.com/huuha205/hatrix" target="_blank" class="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl text-xs font-medium border border-slate-700 transition">
@@ -106,62 +261,12 @@
               </div>
             </div>
 
-            <!-- Tech Badges -->
             <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-800/80 text-xs">
               <span class="px-2.5 py-1 bg-slate-800 text-purple-300 rounded-lg font-mono">React</span>
-              <span class="px-2.5 py-1 bg-slate-800 text-blue-300 rounded-lg font-mono">JavaScript</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-blue-300 rounded-lg font-mono">JavaScript ES6+</span>
               <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg font-mono">HTML5 / CSS3</span>
-              <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg font-mono">Vercel Deploy</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- DỰ ÁN 2: WEATHER STATION (IoT) -->
-        <div class="bg-gradient-to-b from-slate-900 to-slate-900/60 border border-slate-800 hover:border-emerald-500/40 transition duration-300 rounded-3xl overflow-hidden shadow-xl">
-          <!-- Architecture diagram banner -->
-          <div class="bg-slate-950/80 border-b border-slate-800 p-6">
-            <p class="text-xs font-mono text-emerald-400 mb-3 flex items-center gap-2">
-              <span class="w-2 h-2 rounded-full bg-emerald-400"></span> KIẾN TRÚC HỆ THỐNG REALTIME (SYSTEM ARCHITECTURE)
-            </p>
-            <div class="flex flex-wrap items-center justify-between gap-3 text-xs font-mono bg-slate-900/90 p-4 rounded-2xl border border-slate-800">
-              <div class="text-center p-2 rounded-lg bg-emerald-950/50 border border-emerald-500/30 text-emerald-300">
-                📡 Cảm biến ESP32<br><span class="text-[10px] text-slate-400">Nhiệt độ / Độ ẩm / Mưa</span>
-              </div>
-              <span class="text-slate-500 font-bold hidden sm:inline">➔ HTTP POST ➔</span>
-              <div class="text-center p-2 rounded-lg bg-blue-950/50 border border-blue-500/30 text-blue-300">
-                ⚙️ Node.js API<br><span class="text-[10px] text-slate-400">Express + SQLite</span>
-              </div>
-              <span class="text-slate-500 font-bold hidden sm:inline">➔ Socket.IO ➔</span>
-              <div class="text-center p-2 rounded-lg bg-purple-950/50 border border-purple-500/30 text-purple-300">
-                📊 Realtime Dashboard<br><span class="text-[10px] text-slate-400">Google Gemini AI</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="p-6 md:p-8 space-y-5">
-            <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
-              <div>
-                <div class="flex items-center gap-2">
-                  <span class="text-xs font-mono font-bold text-emerald-400 uppercase tracking-wider">IoT & Realtime Backend</span>
-                  <span class="px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[11px] font-semibold">Trưởng nhóm</span>
-                </div>
-                <h3 class="text-xl font-bold text-white mt-1">Smart Weather Monitoring System</h3>
-                <p class="text-sm text-slate-300 mt-2 leading-relaxed">
-                  Hệ thống IoT thu thập dữ liệu môi trường thời gian thực, lưu trữ trên SQLite, điều hướng WebSocket và tích hợp AI Google Gemini phân tích thời tiết.
-                </p>
-              </div>
-              <a href="https://github.com/huuha205/WeatherStation" target="_blank" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-semibold border border-slate-700 transition shrink-0">
-                Xem trên GitHub ↗
-              </a>
-            </div>
-
-            <!-- Tech Badges -->
-            <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-800/80 text-xs">
-              <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg font-mono">ESP32 (C/C++)</span>
-              <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg font-mono">Node.js / Express</span>
-              <span class="px-2.5 py-1 bg-slate-800 text-blue-300 rounded-lg font-mono">Socket.IO</span>
-              <span class="px-2.5 py-1 bg-slate-800 text-blue-300 rounded-lg font-mono">SQLite</span>
-              <span class="px-2.5 py-1 bg-slate-800 text-purple-300 rounded-lg font-mono">Google Gemini API</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg font-mono">Google OAuth</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg font-mono">Vercel</span>
             </div>
           </div>
         </div>
@@ -180,11 +285,11 @@
         <div class="space-y-2">
           <h3 class="font-bold text-white">Đại học FPT Đà Nẵng</h3>
           <p class="text-xs text-blue-400 font-mono">2024 – Nay • Chuyên ngành Kỹ thuật Phần mềm</p>
-          <div class="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-amber-300 text-xs font-semibold">
+          <div class="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-amber-300 text-xs font-semibold flex items-center gap-2">
             🏆 Nhận Học bổng 100% Đại học FPT
           </div>
           <p class="text-xs text-slate-400 leading-relaxed pt-1">
-            Nền tảng vững chắc về Lập trình hướng đối tượng (OOP), Cấu trúc dữ liệu & Giải thuật, Thiết kế Cơ sở dữ liệu quan hệ.
+            Nền tảng vững chắc về Lập trình hướng đối tượng (OOP), Cấu trúc dữ liệu & Giải thuật, Phân tích thiết kế hệ thống và Cơ sở dữ liệu quan hệ.
           </p>
         </div>
       </section>
@@ -199,7 +304,7 @@
             <span class="text-slate-400 block mb-1.5 font-medium">Ngôn ngữ & Backend:</span>
             <div class="flex flex-wrap gap-1.5 font-mono">
               <span class="px-2.5 py-1 bg-blue-600/20 text-blue-300 rounded-lg border border-blue-500/30">Java (OOP, CRUD)</span>
-              <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg">JavaScript</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg">JavaScript / Node.js</span>
               <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg">HTML/CSS</span>
             </div>
           </div>
@@ -208,6 +313,7 @@
             <div class="flex flex-wrap gap-1.5 font-mono">
               <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg">MySQL</span>
               <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg">SQL Server</span>
+              <span class="px-2.5 py-1 bg-slate-800 text-emerald-300 rounded-lg">SQLite</span>
               <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg">Git / GitHub</span>
               <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg">IntelliJ IDEA</span>
             </div>
@@ -217,9 +323,9 @@
 
     </div>
 
-    <!-- ĐỊNH HƯỚNG PHÁT TRIỂN -->
+    <!-- ĐỊNH HƯỚNG NGHỀ NGHIỆP -->
     <section class="bg-gradient-to-r from-blue-950/30 to-indigo-950/30 border border-blue-500/20 rounded-3xl p-6 space-y-2">
-      <h3 class="text-sm font-bold text-white uppercase tracking-wider text-blue-400 font-mono">Mục tiêu nghề nghiệp</h3>
+      <h3 class="text-sm font-bold text-white uppercase tracking-wider text-blue-400 font-mono">Mục tiêu phát triển nghề nghiệp</h3>
       <p class="text-slate-300 text-sm leading-relaxed">
         Phát triển chuyên sâu theo vị trí <strong class="text-white">Java Backend Developer</strong>. Chú trọng tối ưu hiệu năng hệ thống, kiến trúc hướng đối tượng chuẩn chỉ, sẵn sàng tiếp thu công nghệ mới và đóng góp hiệu quả vào các dự án phần mềm quy mô lớn.
       </p>
